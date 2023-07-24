@@ -5,6 +5,7 @@ import styles from "./home.style";
 import { Ionicons, Fontisto } from "@expo/vector-icons";
 import { SIZES } from "../../constants";
 import { Welcome } from "../../components";
+import Carousel from "./Carousel";
 const Home = () => {
   return (
     <SafeAreaView>
@@ -17,13 +18,14 @@ const Home = () => {
               <Text style={styles.cartText}>9</Text>
             </View>
             <TouchableOpacity>
-              <Fontisto name="shopping-basket" size={24}/>
+              <Fontisto name="shopping-basket" size={24} />
             </TouchableOpacity>
           </View>
         </View>
       </View>
       <ScrollView>
-        <Welcome/>
+        <Welcome />
+        <Carousel />
       </ScrollView>
     </SafeAreaView>
   );

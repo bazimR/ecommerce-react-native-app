@@ -1,5 +1,5 @@
-import Search from "./Search";
-import Home from "./Home/Home";
+import Search from "./search/Search";
+import Home from "./home/Home";
 import Profile from "./Profile";
 import Cart from './Cart'
 

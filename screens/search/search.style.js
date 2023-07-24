@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { COLORS, SIZES } from '../../../constants/index'
+import { COLORS, SIZES } from '../../constants/index'
 
 const styles = StyleSheet.create({
     container: {
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         borderRadius: SIZES.medium,
         marginVertical: SIZES.medium,
         height: 50,
-        marginHorizontal:SIZES.small
+        marginHorizontal: SIZES.small
     },
     searchIcon: {
         marginHorizontal: SIZES.xSmall,
@@ -30,22 +30,22 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: COLORS.secondary,
         marginRight: SIZES.small,
-        borderRadius:SIZES.small
+        borderRadius: SIZES.small
     },
     searchInput: {
         fontFamily: 'regular',
         width: '100%',
         height: '100%',
-        paddingHorizontal:SIZES.small
-        
+        paddingHorizontal: SIZES.small
+
     },
     searchBtn: {
         width: 50,
-        height:"100%",
+        height: "100%",
         backgroundColor: COLORS.primary,
         borderRadius: SIZES.medium,
         justifyContent: 'center',
-        alignItems:'center'
+        alignItems: 'center'
     }
 })
 
