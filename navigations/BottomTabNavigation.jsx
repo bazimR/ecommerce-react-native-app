@@ -1,6 +1,6 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Home, Search, Profile, Cart } from "../screens/index";
+import { Home, Search, Profile } from "../screens/index";
 import { Ionicons } from "@expo/vector-icons";
 import { COLORS } from "../constants/index";
 
@@ -45,21 +45,6 @@ const BottomTabNavigation = () => {
             return (
               <Ionicons
                 name="search-sharp"
-                size={24}
-                color={focused ? COLORS.primary : COLORS.gray}
-              ></Ionicons>
-            );
-          },
-        }}
-      ></Tab.Screen>
-      <Tab.Screen
-        name="Cart"
-        component={Cart}
-        options={{
-          tabBarIcon: ({ focused }) => {
-            return (
-              <Ionicons
-                name={focused ? "cart" : "cart-outline"}
                 size={24}
                 color={focused ? COLORS.primary : COLORS.gray}
               ></Ionicons>
